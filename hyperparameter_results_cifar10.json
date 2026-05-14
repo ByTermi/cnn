@@ -1,0 +1,90 @@
+{
+  "dataset": "CIFAR-10",
+  "best_hyperparameters": {
+    "filters1": 32.0,
+    "dropout1": 0.25,
+    "learning_rate": 0.001
+  },
+  "test_accuracy": 0.8328889012336731,
+  "test_loss": 0.5766610503196716,
+  "base_accuracy": 0.8328889012336731,
+  "improvement_pp": 0.0,
+  "inference_ms_per_image": 24.67036247253418,
+  "total_params": 815914,
+  "grid_search": {
+    "n_combinations": 8,
+    "best_val_accuracy": 0.5892221927642822,
+    "param_grid": {
+      "filters1": [
+        32,
+        64
+      ],
+      "dropout1": [
+        0.25,
+        0.35
+      ],
+      "learning_rate": [
+        0.001,
+        0.0005
+      ]
+    },
+    "all_results": [
+      {
+        "filters1": 32,
+        "dropout1": 0.25,
+        "learning_rate": 0.001,
+        "val_accuracy": 0.5892221927642822,
+        "val_loss": 1.235013723373413
+      },
+      {
+        "filters1": 32,
+        "dropout1": 0.25,
+        "learning_rate": 0.0005,
+        "val_accuracy": 0.5491111278533936,
+        "val_loss": 1.3242225646972656
+      },
+      {
+        "filters1": 32,
+        "dropout1": 0.35,
+        "learning_rate": 0.001,
+        "val_accuracy": 0.5802222490310669,
+        "val_loss": 1.2803256511688232
+      },
+      {
+        "filters1": 32,
+        "dropout1": 0.35,
+        "learning_rate": 0.0005,
+        "val_accuracy": 0.4803333282470703,
+        "val_loss": 1.5196298360824585
+      },
+      {
+        "filters1": 64,
+        "dropout1": 0.25,
+        "learning_rate": 0.001,
+        "val_accuracy": 0.5461111068725586,
+        "val_loss": 1.3392349481582642
+      },
+      {
+        "filters1": 64,
+        "dropout1": 0.25,
+        "learning_rate": 0.0005,
+        "val_accuracy": 0.46488890051841736,
+        "val_loss": 1.5265415906906128
+      },
+      {
+        "filters1": 64,
+        "dropout1": 0.35,
+        "learning_rate": 0.001,
+        "val_accuracy": 0.5381110906600952,
+        "val_loss": 1.4227654933929443
+      },
+      {
+        "filters1": 64,
+        "dropout1": 0.35,
+        "learning_rate": 0.0005,
+        "val_accuracy": 0.42366665601730347,
+        "val_loss": 1.6094293594360352
+      }
+    ]
+  }
+}
